@@ -3,7 +3,7 @@
 - Faça uma cópia deste arquivo .md para um repositório próprio
 - Resolva as 6 questões objetivas assinalando a alternativa correta
 - Resolva as 4 questões dissertativas escrevendo no próprio arquivo .md
-  - lembre-se de utilizar as estruturas de código como ``esta aqui com ` `` ou
+  - lembre-se de utilizar as estruturas de código como ``esta aqui com ` `` ou 
 ```javascript
 //esta aqui com ```
 let a = "olá"
@@ -27,7 +27,7 @@ a) Imprime os números pares de 1 a 10.
 
 b) Imprime os números ímpares de 1 a 10.
 
-*c) Imprime os números pares de 2 a 10. <--- Resposta correta*
+**c) Imprime os números pares de 2 a 10. <--- Resposta correta**
 
 d) Imprime os números ímpares de 2 a 10.
 
@@ -39,7 +39,7 @@ ______
 
 No lugar onde está escrito “// linha” qual das opções abaixo deve estar para funcionar corretamente o código?
 
-*A) let carro = new Carro("Toyota");<--- Resposta correta*
+**A) let carro = new Carro("Toyota"); <--- Resposta correta**
 
 B) let ligar = new ligar("Toyota");
 
@@ -55,7 +55,7 @@ ______
 
 Escolha a opção que responde corretamente:
 
-*A) 18<--- Resposta correta*
+**A) 18 <--- Resposta correta**
 
 B) 16
 
@@ -67,7 +67,7 @@ ______
 
 **4)** Como você criaria um método `acelerar()` em uma classe `Carro`, que recebe um parâmetro `velocidade` e o adiciona a um atributo `velocidadeAtual`?
 
-*A) ![Uma imagem](assets/ex04_1.PNG)<--- Resposta correta*
+**A) ![Uma imagem](assets/ex04_1.PNG) <--- Resposta correta**
 
 B) ![Uma imagem](assets/ex04_2.PNG)
 
@@ -79,7 +79,7 @@ ______
 
 **5)** Qual a forma correta de definir uma classe Carro em JavaScript, com um método ligar() e um atributo marca?
 
-*A) ![Uma imagem](assets/ex05_1.PNG)<--- Resposta correta*
+**A) ![Uma imagem](assets/ex05_1.PNG) <--- Resposta correta**
 
 B) ![Uma imagem](assets/ex05_2.PNG)
 
@@ -97,7 +97,7 @@ Qual será a saída do código acima?
 
 A) "Olá, meu nome é João. Olá, meu nome é Maria."
 
-*B) "Olá, meu nome é ."<--- Resposta correta*
+**B) "Olá, meu nome é ." <--- Resposta correta**
 
 C) "João Maria"
 
@@ -121,6 +121,8 @@ Criando e manipulando Animais:
 Dica: Utilize `console.log()` para exibir as informações!
 
 *Resposta:*
+
+```
 // Definição da classe Animal
 class Animal {
     // Método construtor que recebe nome e idade como parâmetros
@@ -143,7 +145,7 @@ const gato = new Animal("Bigode", 3);
 // Chamada do método descrever para cada objeto criado
 cachorro.descrever();
 gato.descrever();
-
+```
 
 ______
 
@@ -171,6 +173,8 @@ Chamando os Métodos:
 Dica: Utilize console.log() para exibir as informações!
 
 *Resposta:*
+
+```
 // Definição da classe Animal comum
 class Animal {
     constructor(nome, idade) {
@@ -206,7 +210,8 @@ const gato = new Gato("Bigode", 3, "Branco");
 cachorro.descrever();
 gato.descrever();
 gato.miar();
-______
+```
+
 
 **9)** Vamos criar um programa em JavaScript para somar notas!
 
@@ -228,6 +233,7 @@ Chamando o Método para Ver o Total:
 Dica: Utilize console.log() para exibir as informações!
 
 *Resposta:*
+```
 // Definição da classe SomadorDeNotas
 class SomadorDeNotas {
     constructor() {
@@ -254,6 +260,7 @@ somador.adicionarNota(8.5);
 somador.adicionarNota(6.5);
 // Chamada do método para ver o total das notas adicionadas
 somador.verTotal();
+```
 ______
 
 **10)** Imagine que você está criando um programa em JavaScript para uma escola. Neste programa, existem diferentes tipos de funcionários, cada um com suas próprias características. Considere as seguintes classes:
@@ -277,6 +284,7 @@ Certifique-se de explicar cada parte do código utilizando comentários, explica
 
 *Resposta:*
 
+```
 // Definição da classe Funcionario
 class Funcionario {
     constructor(nome, idade, salarioBase) {
@@ -316,3 +324,4 @@ const professor2 = new Professor("Maria", 35, 3500, "História", 18, 55);
 // Chamada do método calcularSalario() para cada professor e exibição do resultado no console
 console.log(`Salário do ${professor1.nome}: ${professor1.calcularSalario()}`);
 console.log(`Salário da ${professor2.nome}: ${professor2.calcularSalario()}`);
+```
